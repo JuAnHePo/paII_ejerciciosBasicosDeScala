@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f5c1915-312a-4935-936d-0e327a8eced4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project - copia.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig - copia.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ejercicio1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ejercicio1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ejercicio2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ejercicio2.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.mainBisiesto.executor": "Run",
+    "Application.mainPruebaCuentaBancaria.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -77,9 +76,16 @@
     "settings.editor.selected.configurable": "com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.mainPruebaCuentaBancaria">
     <configuration name="mainBisiesto" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="mainBisiesto" />
+      <module name="paII_ejerciciosBasicosDeScala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainPruebaCuentaBancaria" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="mainPruebaCuentaBancaria" />
       <module name="paII_ejerciciosBasicosDeScala" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,6 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mainPruebaCuentaBancaria" />
         <item itemvalue="Application.mainBisiesto" />
       </list>
     </recent_temporary>
