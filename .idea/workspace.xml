@@ -79,9 +79,9 @@
     "settings.editor.selected.configurable": "com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.mainMinimosComunes">
-    <configuration name="mainBisiesto" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="mainBisiesto" />
+  <component name="RunManager" selected="Application.mainComunes">
+    <configuration name="mainComunes" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="mainComunes" />
       <module name="paII_ejerciciosBasicosDeScala" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mainComunes" />
         <item itemvalue="Application.mainMinimosComunes" />
         <item itemvalue="Application.mainImprimirNPrimos" />
         <item itemvalue="Application.mainPalindromo" />
         <item itemvalue="Application.mainPruebaCuentaBancaria" />
-        <item itemvalue="Application.mainBisiesto" />
       </list>
     </recent_temporary>
   </component>

@@ -17,12 +17,12 @@ object ejercicio5 {
     a * b / mcd(a, b)
   }
 
-  @main def mainMinimosComunes(): Unit = {
+  @main def mainComunes(): Unit = {
     val a = 72
     val b = 50
     val c = 2366
     val d = 273
-    println(mcm(72, 50))
-    println(mcd(2366, 273))
+    printf(s"El minimo comun multiplo de $a y $b es: %d.\n", mcm(a, b))
+    printf(s"El maximo comun divisor de $c y $d es: %d.\n", mcd(c, d))
   }
 }
