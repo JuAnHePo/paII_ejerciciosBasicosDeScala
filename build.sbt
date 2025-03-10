@@ -1,8 +1,8 @@
 ThisBuild / version := "0.1.0-SNAPSHOT"
 
-ThisBuild / scalaVersion := "3.3.5"
+ThisBuild / scalaVersion := "3.6.4"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "Ejercicios Basicos de Scala"
+    name := "paII_ejerciciosBasicosDeScala"
   )
