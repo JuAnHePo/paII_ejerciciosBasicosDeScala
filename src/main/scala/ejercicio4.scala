@@ -1,16 +1,27 @@
-object ejercicio4 extends App:
+import scala.collection.mutable.ListBuffer
 
-  def imprimirPrimos(valor: Int): Unit =
-    val numPrimos = valor
-    var primosMostrados = 0
-    var i = 2
-    while primosMostrados != numPrimos do
+object ejercicio4 {
+  def imprimirNPrimos(n: Int): Unit = {
+    def esPrimo(n: Int): Boolean = {
       var cnt = 0
-      for (j <- 2 to (i / 2))
-        if (i % j) == 0 then cnt += 1
-      if cnt == 0 then
-        printf("%d | ", i)
-        primosMostrados += 1
-      i += 1
-
-  imprimirPrimos(10)
+      for (i <- 2 to n / 2)
+        if n % i == 0 then cnt += 1
+      cnt == 0
+    }
+    
+    var nPrimos = n
+    var nActual = 2
+    val listNPrimos = new ListBuffer[Int]
+    while nPrimos != 0 do
+      if esPrimo(nActual) then
+        listNPrimos += nActual
+        nPrimos -= 1
+          
+      nActual += 1
+    println(listNPrimos)  
+  }
+  
+  @main def mainImprimirNPrimos(): Unit = {
+    imprimirNPrimos(10)
+  }
+}
