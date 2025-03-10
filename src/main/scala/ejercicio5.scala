@@ -1,37 +1,28 @@
-object ejercicio5 extends App:
+object ejercicio5 {
+  def mcd(a: Int, b: Int): Int = {
 
-  class mathCommon:
+    def ordenar(a: Int, b: Int): (Int, Int) = {
+      if a > b then (b, a) else (a, b)
+    }
 
-    def mcd(a: Int, b: Int): Int =
-      if a == b then a
-      else if a == 0 then b
-      else if b == 0 then a
-      else
-        var mayor = 0
-        var menor = 0
-        if a > b then
-          mayor = a
-          menor = b
-        else
-          mayor = b
-          menor = a
-        if (mayor % menor) != 0 then
-          mcd(menor, mayor % menor)
-        else
-          menor
+    require(a > -1 && b > -1, "Los numeros deben ser positivos.\n")
 
-    def mcm(a: Int, b: Int): Int =
-      if a == b then a
-      else if a == 0 then b
-      else if b == 0 then a
-      else
-        val math = mathCommon()
-        (a * b) / math.mcd(a, b)
+    val menor = ordenar(a, b)(0)
+    val mayor = ordenar(a, b)(1)
+    if menor == 0 || mayor == menor then mayor
+    else mcd(menor, mayor % menor)
+  }
 
-  val math = mathCommon()
-  val a = 2366
-  val b = 273
-  val c = 72
-  val d = 50
-  printf("El MCD de %d y %d es %d.\n", a, b, math.mcd(a, b))
-  printf("El MCM de %d y %d es %d.\n", c, d, math.mcm(c, d))
+  def mcm(a: Int, b: Int): Int = {
+    a * b / mcd(a, b)
+  }
+
+  @main def mainMinimosComunes(): Unit = {
+    val a = 72
+    val b = 50
+    val c = 2366
+    val d = 273
+    println(mcm(72, 50))
+    println(mcd(2366, 273))
+  }
+}
