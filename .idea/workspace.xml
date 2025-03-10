@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0f5c1915-312a-4935-936d-0e327a8eced4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ejercicio5.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ejercicio5.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2u851uVZ7GRBQHxu8IAuRHcQpMn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,6 +66,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.mainBisiesto.executor": "Run",
+    "Application.mainBuscarSegundoMayor.executor": "Run",
+    "Application.mainComunes.executor": "Run",
     "Application.mainImprimirNPrimos.executor": "Run",
     "Application.mainMinimosComunes.executor": "Run",
     "Application.mainPalindromo.executor": "Run",
@@ -79,7 +83,14 @@
     "settings.editor.selected.configurable": "com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.mainComunes">
+  <component name="RunManager" selected="Application.mainBuscarSegundoMayor">
+    <configuration name="mainBuscarSegundoMayor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="mainBuscarSegundoMayor" />
+      <module name="paII_ejerciciosBasicosDeScala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mainComunes" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="mainComunes" />
       <module name="paII_ejerciciosBasicosDeScala" />
@@ -108,13 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainPruebaCuentaBancaria" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="mainPruebaCuentaBancaria" />
-      <module name="paII_ejerciciosBasicosDeScala" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="paII_ejerciciosBasicosDeScala" />
       <method v="2">
@@ -128,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mainBuscarSegundoMayor" />
         <item itemvalue="Application.mainComunes" />
         <item itemvalue="Application.mainMinimosComunes" />
         <item itemvalue="Application.mainImprimirNPrimos" />
         <item itemvalue="Application.mainPalindromo" />
-        <item itemvalue="Application.mainPruebaCuentaBancaria" />
       </list>
     </recent_temporary>
   </component>
