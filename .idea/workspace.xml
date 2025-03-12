@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f5c1915-312a-4935-936d-0e327a8eced4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,27 +63,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.mainBisiesto.executor": "Run",
-    "Application.mainBuscarSegundoMayor.executor": "Run",
-    "Application.mainComunes.executor": "Run",
-    "Application.mainImprimirNPrimos.executor": "Run",
-    "Application.mainMinimosComunes.executor": "Run",
-    "Application.mainPalindromo.executor": "Run",
-    "Application.mainPruebaCuentaBancaria.executor": "Run",
-    "Application.mainRotarLista.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Usuario/Desktop/Documentos Académicos/Programación Avanzada II/paII_ejerciciosBasicosDeScala",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.mainBisiesto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainBuscarSegundoMayor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainCombinarArraysOrdenados.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainComunes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainImprimirNPrimos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainMinimosComunes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainPalindromo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainPruebaCuentaBancaria.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainRotarLista.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Desktop/Documentos Académicos/Programación Avanzada II/paII_ejerciciosBasicosDeScala&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.mainRotarLista">
     <configuration name="mainBuscarSegundoMayor" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="mainBuscarSegundoMayor" />
@@ -93,15 +93,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainComunes" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="mainComunes" />
+    <configuration name="mainCombinarArraysOrdenados" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="mainCombinarArraysOrdenados" />
       <module name="paII_ejerciciosBasicosDeScala" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainImprimirNPrimos" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="mainImprimirNPrimos" />
+    <configuration name="mainComunes" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="mainComunes" />
       <module name="paII_ejerciciosBasicosDeScala" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,10 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.mainRotarLista" />
+        <item itemvalue="Application.mainCombinarArraysOrdenados" />
         <item itemvalue="Application.mainBuscarSegundoMayor" />
         <item itemvalue="Application.mainComunes" />
         <item itemvalue="Application.mainMinimosComunes" />
-        <item itemvalue="Application.mainImprimirNPrimos" />
       </list>
     </recent_temporary>
   </component>
